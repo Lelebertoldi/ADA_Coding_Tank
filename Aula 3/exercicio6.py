@@ -16,7 +16,6 @@ while True:
             if num1_str.isdigit(): # se numero digitado for numero
                 num1 = float(num1_str) # transforma a string para numero flutuante
                 break
-        
             else:
                 print("Entrada inválida. Por favor, insira um número válido.")
 
