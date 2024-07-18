@@ -7,8 +7,8 @@ c. Gênero: M, F ou Outro'''
 
 while True:
     idade = input("Digite uma idade (entre 0 e 150): ")
-    if idade.isdigit():
-        idade = int(idade)
+    if idade.isdigit(): # se a idade for numero
+        idade = int(idade) # converte a str para int
         if 0 <= idade <= 150:
             break
         else:
@@ -18,8 +18,8 @@ while True:
 
 while True:
     salario = input("Digite o salário (inteiro e maior que 0): ")
-    if salario.isdigit():
-        salario = int(salario)
+    if salario.isdigit(): # se o salario for numero
+        salario = int(salario) # converte a str para int
         if salario > 0:
             break
         else:
