@@ -37,7 +37,7 @@ while True:
             resultado = num1 * num2
             print(f"{num1} * {num2} : {resultado}")
         elif operacao == '/':
-            if num1 == 0 or num2 == 0:
+            if num2 == 0:
                 print("Erro: Divisão por zero não é permitida.")
             else:
                 resultado = num1 / num2
